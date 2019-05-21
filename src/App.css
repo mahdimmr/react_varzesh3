@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 450;
+    background-color: #cfcfcf;
+    overflow: scroll;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}

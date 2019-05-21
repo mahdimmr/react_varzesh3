@@ -1,0 +1,356 @@
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+.center-container {
+    display: block;
+    margin: 0 auto;
+    min-height: 1px;
+    width: 924px
+}
+
+.page-header--middle-row .center-container {
+    height: 100%
+}
+
+header.page-header {
+    direction: rtl;
+    color: #fff;
+    min-width: 970.2px
+}
+
+@media (max-width:0px) {
+    .hidden-xs {
+        display: none!important
+    }
+}
+
+header.page-header .page-header--tiny-bar {
+    height: 30px;
+    background: #00879e;
+    border-bottom: 1px solid #aaa
+}
+
+header.page-header .page-header--tiny-bar i {
+    width: 24px;
+    text-align: center;
+    vertical-align: -3px;
+    display: inline-block;
+    box-sizing: content-box;
+    font-size: 16px
+}
+
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="15"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="16"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="17"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="18"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="19"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="20"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="21"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="22"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="23"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="24"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="25"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="26"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="27"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="28"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="29"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="30"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="31"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="32"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="33"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="34"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="35"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome][data-browser-major-version="36"] header.page-header .page-header--tiny-bar i {
+    vertical-align: 3px
+}
+
+body[data-os=Linux][data-browser=Chrome][data-browser-major-version="34"] header.page-header .page-header--tiny-bar i,
+body[data-os=Linux][data-browser=Chrome] header.page-header .page-header--tiny-bar i {
+    vertical-align: 2px
+}
+
+body[data-os=Linux][data-browser=Firefox] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser="Microsoft Internet Explorer"] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Chrome] header.page-header .page-header--tiny-bar i,
+body[data-os=Windows][data-browser=Firefox] header.page-header .page-header--tiny-bar i {
+    vertical-align: -1px
+}
+
+body[data-os=Linux][data-browser=Chrome] header.page-header .page-header--tiny-bar i.old,
+body[data-os=Linux][data-browser=Firefox] header.page-header .page-header--tiny-bar i.old,
+body[data-os=Windows][data-browser=Chrome] header.page-header .page-header--tiny-bar i.old,
+body[data-os=Windows][data-browser=Firefox] header.page-header .page-header--tiny-bar i.old {
+    vertical-align: -3.5px
+}
+
+body[data-os="Mac OS X"][data-browser=Firefox] header.page-header .page-header--tiny-bar i,
+body[data-os=Android][data-browser=Chrome][data-browser-major-version="55"] header.page-header .page-header--tiny-bar i.old,
+body[data-os=Windows][data-browser="Microsoft Internet Explorer"] header.page-header .page-header--tiny-bar i.old {
+    vertical-align: -4px
+}
+
+body[data-os=Linux][data-browser=Chrome][data-browser-major-version="55"] header.page-header .page-header--tiny-bar i,
+body[data-os=Linux][data-browser=Chrome][data-browser-major-version="56"] header.page-header .page-header--tiny-bar i,
+body[data-os=Linux][data-browser=Chrome][data-browser-major-version="57"] header.page-header .page-header--tiny-bar i,
+body[data-os=Linux][data-browser=Chrome][data-browser-major-version="58"] header.page-header .page-header--tiny-bar i,
+body[data-os=Linux][data-browser=Chrome][data-browser-major-version="59"] header.page-header .page-header--tiny-bar i,
+body[data-os=Linux][data-browser=Chrome][data-browser-major-version="60"] header.page-header .page-header--tiny-bar i,
+body[data-os=Linux][data-browser=Chrome][data-browser-major-version="61"] header.page-header .page-header--tiny-bar i,
+body[data-os=Linux][data-browser=Chrome][data-browser-major-version="62"] header.page-header .page-header--tiny-bar i {
+    vertical-align: -8px
+}
+
+body[data-os=Android][data-browser=Chrome][data-browser-major-version="55"] header.page-header .page-header--tiny-bar i {
+    vertical-align: -9px
+}
+
+header.page-header .page-header--tiny-bar i.old:before {
+    font-size: 16px
+}
+
+header.page-header .page-header--tiny-bar i.varzesh3-icon-login {
+    font-size: 18px
+}
+
+header.page-header .page-header--tiny-bar .menu li a {
+    padding: 0 5px
+}
+
+header.page-header .page-header--tiny-bar .menu li a:hover {
+    background-color: #00768a
+}
+
+header.page-header .page-header--tiny-bar .menu li a,
+header.page-header .page-header--tiny-bar .menu li a:hover {
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease
+}
+
+header.page-header .page-header--tiny-bar .menu li.highlight a {
+    color: #f3b500
+}
+
+header.page-header .page-header--tiny-bar .menu a,
+header.page-header .page-header--tiny-bar .page-header--datetime,
+header.page-header .page-header--tiny-bar .page-header--datetime span,
+header.page-header .page-header--tiny-bar .profile {
+    line-height: 28px;
+    font-size: 11px
+}
+
+header.page-header .page-header--tiny-bar .page-header--datetime>div {
+    padding: 0 5px;
+    white-space: nowrap;
+    border-left: 1px solid #00768a
+}
+
+
+.center-container {
+    display: block;
+    margin: 0 auto;
+    min-height: 1px;
+    width: 924px
+}
+
+.page-header--middle-row .center-container {
+    height: 100%
+}
+
+header.page-header .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+header.page-header .menu.bordered li {
+    border-left: 1px solid #00768a
+}
+
+header.page-header .menu.bordered li:last-child {
+    border-left: 0
+}
+
+header.page-header .menu li {
+    float: right
+}
+
+header.page-header .menu li a {
+    white-space: nowrap;
+    color: #fff;
+    display: block
+}
+
+header.page-header .page-header--tiny-bar .menu li a {
+    padding: 0 5px
+}
+
+header.page-header .page-header--tiny-bar .menu li a:hover {
+    background-color: #00768a
+}
+
+header.page-header .page-header--tiny-bar .menu li a,
+header.page-header .page-header--tiny-bar .menu li a:hover {
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease
+}
+
+header.page-header .page-header--tiny-bar .menu li.highlight a {
+    color: #f3b500
+}
+
+header.page-header .page-header--tiny-bar .menu a,
+header.page-header .page-header--tiny-bar .page-header--datetime,
+header.page-header .page-header--tiny-bar .page-header--datetime span,
+header.page-header .page-header--tiny-bar .profile {
+    line-height: 28px;
+    font-size: 11px
+}
+
+header.page-header .page-header--main-menu {
+    height: 38px;
+    background-color: #f0f0f0;
+    box-shadow: 0 1px 6px #aaa
+}
+
+header.page-header .page-header--main-menu .menu li {
+    padding: 0 7px
+}
+
+header.page-header .page-header--main-menu .menu li a {
+    color: #444;
+    line-height: 34px
+}
+
+header.page-header .page-header--main-menu .menu li a:hover {
+    color: #fe8d09
+}
+
+header.page-header .page-header--main-menu .menu li.highlight a {
+    color: #e74c3c
+}
+
+/* add image */
+header.page-header .page-header--main-menu .menu li .live.blink {
+    width: 7px;
+    height: 7px;
+    overflow: hidden;
+    margin-right: 3px;
+    vertical-align: -1px;
+    display: inline-block;
+    border-radius: 50%;
+    background-clip: padding-box;
+    /* background: url(../img/gif/green-blinker.gif) no-repeat */
+}
+
+header.page-header.is-wc2018 .page-header--tiny-bar .menu li,
+header.page-header.is-wc2018 .page-header--tiny-bar .page-header--datetime>div {
+    border-left-color: transparent
+}
+
+header.page-header.is-wc2018 .page-header--tiny-bar .menu li a {
+    color: #887e5e
+}
+
+header.page-header.is-wc2018 .page-header--tiny-bar .menu li a:hover {
+    background: none;
+    color: #6a6249
+}
+
+.social-link-menu {
+    display: block;
+    margin-top: 2px
+}
+
+.social-link-menu .social-item {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    background-repeat: no-repeat
+}
+
+.social-link-menu .social-link-menu--facebook,
+.social-link-menu .social-link-menu--rss {
+    /* background-image: url(../img/social/social.png) */
+}
+
+.social-link-menu .social-link-menu--facebook {
+    background-position: -48px 0
+}
+
+.social-link-menu .social-link-menu--instagram {
+    /* background-image: url(../img/social/social.png); */
+    background-position: -72px 0
+}
+
+.social-link-menu .social-link-menu--twitter {
+    /* background-image: url(../img/social/social.png); */
+    background-position: -24px 0
+}
+
+.social-link-menu .social-link-menu--telegram {
+    /* background-image: url(../img/social/social.png); */
+    background-position: -96px 0
+}
+
+.social-link-menu .social-link-menu--mail {
+    /* background-image: url(../img/social/social.png); */
+    background-position: -120px 0
+}
+
+.icon-menu:before {
+    content: "\e6dd"
+}
+
+header.page-header .menu.bordered li {
+    border-left: 1px solid #00768a
+}
+
+header.page-header .menu.bordered li:last-child {
+    border-left: 0
+}
+
+footer.page-footer .side.left .bordered-bottom {
+    border-bottom: 1px solid #52535b
+}
+
+.newspaper-page .monthly-timeline .day.highlight {
+    cursor: default
+}
+
+.newspaper-page .monthly-timeline .day.highlight .top {
+    z-index: 1;
+    background-color: #4285f4
+}
+
+.newspaper-page .monthly-timeline .day.highlight .number {
+    position: relative;
+    color: #fff;
+    background-color: #3498db;
+    border-color: #3498db
+}
+
+.newspaper-page .monthly-timeline .day.highlight .number:after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    right: 5.5px;
+    width: 13px;
+    height: 9px;
+    /* background: url(../img/sheet/arrow-down-blue.png) no-repeat 0 0; */
+    color: #4285f4
+}
